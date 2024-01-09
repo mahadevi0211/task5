@@ -1,0 +1,204 @@
+body {
+    margin: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.whole{
+    display: flex;
+    
+}
+.buttons {
+    display: flex;
+    justify-content: flex-end; 
+    margin-bottom: 10px;
+    margin-right: 592px;
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+    
+}
+
+.detailed-view {
+    
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: lightgray;
+    color: black;
+    border: 1px solid gray;
+    
+
+ 
+}
+.card-view {
+    
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+    background-color: blueviolet;
+    color: white;
+}
+
+
+
+.first,.first1 {
+    height: 330px;
+    width: 350px;
+    background-color: white;
+    border-radius: 3px;
+    border-color: rgb(215, 211, 211);
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    text-align: left;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: left; 
+}
+.first1{
+    margin-left: 20px;
+}
+
+.sub1 ,.sub11{
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    position: relative;
+    background-color: rgb(210, 202, 216);
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+
+.icon,.icon1 {
+    font-size: 30px;
+    color: blueviolet;
+    padding-top: 4px;
+}
+
+.h ,.h1{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-start; 
+    margin-top: 12px; 
+    margin-bottom: 2px;
+}
+
+.sub2,
+.sub21 {
+    height: 20px;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    background-color: rgb(215, 206, 222);
+    margin-right: 10px; 
+}
+
+.sub3 {
+    height: 20px;
+    width: 56px;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: center;
+    border-radius: 3px;
+    background-color: rgb(207, 222, 206);
+}
+
+.a, .a1 {
+    color: blueviolet;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.b {
+    color: green;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    
+}
+
+.d, .d1 {
+    margin-top: 4px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-bottom: 2px;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+.sub4, .sub41 {
+    display: flex;
+    align-items: center;
+    height: 10px;
+    margin-top: 12px; 
+}
+
+.c, .c1, .i {
+    color: rgb(179, 175, 175);
+    font-size: 13px;
+    font-weight: bold;
+}
+h3{
+    height: 6px;
+}
+.hike,.hike1 {
+    line-height: 1px;
+    color: rgb(179, 175, 175);
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+h4{
+    color: rgb(162, 159, 159);
+    height: 1px;
+    margin-top: 35px;
+}
+.x,.x1 {
+    color: white;
+    font-size: 13px;
+}
+
+.y ,.y1{
+    color: black;
+    font-size: 13px;
+}
+.last,.last1{
+    display: flex;
+    justify-content: center;
+}
+.sub5,.sub51 {
+    background-color: blueviolet;
+    height: 16px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    
+    border-radius: 2px;
+    padding: 3px; 
+}
+
+.sub6,.sub61 {
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    height: 15px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    border-radius: 3px;
+    padding: 3px; 
+    margin-left: 15px;
+}
